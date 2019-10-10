@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>버튼 클릭</title>
+<style>
+  div{
+  width: 100px; height:100px;
+  background-color:blue;
+  border-radius:10px;
+  }
+  div.div2{
+  background-color:red;
+  border-radius:50px;
+  }
+</style>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){    
+        $('div').toggleClass('div2');      
+    });   
+});
+</script>
+</head>
+</head>
+<body>
+ <div></div>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp; <button class="b1">Click</button>
+</body>
+</html>

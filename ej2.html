@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>attr tag</title>
+   <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        
+          $('<a/>').attr({'href':'https://www.daum.net',
+        	              'id': 'daum'}).appendTo('body');
+          $('#daum').text('daum');
+          $('<img />').attr({'src' : 'r4.png',
+                        'width': '200px'}).appendTo('body');
+          
+          
+          
+      });
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>
